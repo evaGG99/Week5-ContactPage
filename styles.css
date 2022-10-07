@@ -1,0 +1,37 @@
+:root {
+    --bg-color: #fcf8f3;
+    --branding-color: #a163ff;
+    --secondary-color: #f9f7fe;
+    --heading-font-family: "Poppins", sans-serif;
+    --default-font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-color: var(--bg-color);
+}
+.content{
+    margin-left:150px;
+    padding: 100px 20px;
+}
+h1{
+    font-family: var(--heading-font-family);
+    font-size: 70px;
+}
+h2{
+    font-family: var(--default-font-family);
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+img{
+width: 5%;
+margin-right: 10px;
+}
+@media (max-width: 900px) {
+    .content {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+      }    
+}
